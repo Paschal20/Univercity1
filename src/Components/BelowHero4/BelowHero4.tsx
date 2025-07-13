@@ -61,22 +61,6 @@ const Content = styled.p`
   color: rgb(46, 66, 92);
 `;
 
-const CardButton = styled.button`
-  background-color: #60c26a;
-  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1);
-  color: white;
-  padding: 15px 25px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 700;
-  transition: all 0.3s ease-in-out;
-  &:hover {
-    background-color: #40a140;
-  }
-`;
-
 const BelowHero4: React.FC = () => {
   return (
     <>
