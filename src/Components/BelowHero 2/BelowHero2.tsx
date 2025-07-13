@@ -1,4 +1,4 @@
-import react from "React";
+// import react from "React";
 import styled from "@emotion/styled";
 import FirstImage from "../../assets/Images/First-Card-Image.jpeg";
 import SecondImage from "../../assets/Images/Second-Card-Image.jpeg";
@@ -36,11 +36,11 @@ const CardContainer = styled.div`
   display: flex;
   align-items: center;
 `;
-const TextContainer = styled.div`
-  width: 100%;
-  height: 
-  background-color: yellow;
-`;
+// const TextContainer = styled.div`
+//   width: 100%;
+//   height: 
+//   background-color: yellow;
+// `;
 
 const TextSide = styled.div`
   width: 55%;

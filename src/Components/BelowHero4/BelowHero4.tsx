@@ -1,4 +1,4 @@
-import react from "react";
+// import react from "react";
 import styled from "@emotion/styled";
 import RightLogos from "../../assets/Images/Univelcity_logos_Hired-1024x854.jpeg";
 

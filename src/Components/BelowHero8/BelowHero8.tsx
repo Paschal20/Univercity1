@@ -9,7 +9,6 @@ const Container = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
 `;
 
 const Title = styled.h2`
@@ -44,11 +43,11 @@ const CardButton = styled.button`
   }
 `;
 
-const BelowHero3: React.FC = () => {
+const BelowHero8: React.FC = () => {
   return (
     <>
       <Container>
-        <Title>Ready to transform your Career?</Title>
+        <Title>Ready to transform your career?</Title>
         <Content>
           If you love to grow or build a career in tech, we have you covered. At
           Univelcity, we focus on industry-ready skills that prepare you for the
@@ -61,4 +60,4 @@ const BelowHero3: React.FC = () => {
   );
 };
 
-export default BelowHero3;
+export default BelowHero8;
