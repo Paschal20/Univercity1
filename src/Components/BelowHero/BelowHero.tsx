@@ -25,6 +25,7 @@ const Title = styled.h1`
   font-weight: 700;
   color: rgb(23, 53, 92);
   margin-bottom: 5px;
+  margin-top: 70px;
 `;
 
 const Content = styled.p`
@@ -110,6 +111,12 @@ const CardButton = styled.button`
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: #40a140;
+  }
 `;
 
 const BelowHero = () => {
