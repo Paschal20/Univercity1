@@ -2,7 +2,7 @@
 import styled from "@emotion/styled";
 import Logo from "../../assets/Images/Univelcity-300x298.png";
 /** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react";
+// import { css } from "@emotion/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -62,17 +62,17 @@ const IconDiv = styled.div`
   margin-bottom: 40px;
 `;
 
-const IconStyle = css`
-  color: #444;
-  font-size: 24px;
-  margin: 0 10px;
-  cursor: pointer;
-  transition: color 0.3s ease;
+// const IconStyle = css`
+//   color: #444;
+//   font-size: 24px;
+//   margin: 0 10px;
+//   cursor: pointer;
+//   transition: color 0.3s ease;
 
-  &:hover {
-    color: #0077b5; /* Example: LinkedIn Blue */
-  }
-`;
+//   &:hover {
+//     color: #0077b5; /* Example: LinkedIn Blue */
+//   }
+// `;
 
 const BelowHero9: React.FC = () => {
   return (
