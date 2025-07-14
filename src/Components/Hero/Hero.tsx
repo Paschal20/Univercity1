@@ -7,7 +7,7 @@ const Hero1 = styled.div`
   height: calc(100vh - 100px);
   position: relative;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: center top;
   background-color: #000000;
   font-type: Nunito Sans;
   background-image: url(${HeroImage});

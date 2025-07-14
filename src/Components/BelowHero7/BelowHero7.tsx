@@ -53,6 +53,7 @@ const StyledHr = styled.hr`
   border: none;
   border-top: 1px solid rgba(221, 217, 217, 1);
 `;
+
 const BelowHero7 = () => {
   return (
     <Container>

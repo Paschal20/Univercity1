@@ -1,6 +1,15 @@
 // import react from "react";
 import styled from "@emotion/styled";
 import Logo from "../../assets/Images/Univelcity-300x298.png";
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Container = styled.section`
   width: 100%;
@@ -10,13 +19,13 @@ const Container = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
 `;
 const InnerContainer = styled.div`
   width: 80%;
   height: 80%;
   display: flex;
   justify-content: space-between;
+  margin-top: 60px;
 `;
 const Column1 = styled.div`
   width: 20%;
@@ -38,6 +47,31 @@ const Text1 = styled.p`
 const Image = styled.img`
   width: 100px;
   height: 100px;
+`;
+
+const StyledHr = styled.hr`
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+`;
+const IconDiv = styled.div`
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+`;
+
+const IconStyle = css`
+  color: #444;
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #0077b5; /* Example: LinkedIn Blue */
+  }
 `;
 
 const BelowHero9: React.FC = () => {
@@ -80,6 +114,17 @@ const BelowHero9: React.FC = () => {
             <Text1>Send a Message</Text1>
           </Column1>
         </InnerContainer>
+        <StyledHr />
+        <IconDiv>
+          <FontAwesomeIcon icon={faFacebook} />
+          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faLinkedin} />
+        </IconDiv>
+        <Text1>
+          Copyright © Univelcity School of Technology 2021 All Rights Reserved.
+        </Text1>
+        <Text1>Privacy Policy / Terms of Use / Cookie Policy</Text1>
       </Container>
     </>
   );
